@@ -1,0 +1,21 @@
+.cover-main {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    height: 600px;
+}
+
+.title-bg {
+    font-size: 54px;
+    padding-top: 40px;
+}
+
+.cover-p {
+    padding: 40px;
+    font-size: 24px;
+}
+
+.btn-cover{
+    font-size:24px ;
+    box-shadow: 2px 2px #fff;
+}
