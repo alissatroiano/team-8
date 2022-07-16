@@ -31,27 +31,18 @@ h2 {
   text-align: center;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-
-.cover-page {
-  background-color: var(--gray);
+.cover-main {
   text-align: center;
   color: var(--navy);
-  height: 100vh;
-  overflow: hidden;
 }
 
 .title-bg {
   font-size: 54px;
-  margin-top: 80px;
+  padding-top: 40px;
 }
 
 .cover-p {
-  margin: 40px;
+  padding: 40px;
   font-size: 24px;
 }
 
@@ -60,6 +51,11 @@ p {
   box-shadow: 2px 2px #fff;
 }
 
+footer{
+  padding: 0;
+  height: 5%;
+  text-align: center;
+}
 
 /* ------------------ Guide */
 .tip {
