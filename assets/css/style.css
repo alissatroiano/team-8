@@ -56,6 +56,11 @@ footer{
   height: 5%;
   text-align: center;
 }
+/*------------------Landing*/
+#container-fluid{
+    background: url(../images/cover.jpg) no-repeat center center fixed; 
+    padding: 0 0 0 350px;
+}
 
 /* ------------------ Guide */
 .tip {
