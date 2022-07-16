@@ -41,6 +41,10 @@ h2 {
   box-shadow: 2px 2px #fff;
 }
 
+footer{
+  height: 5%;
+  text-align: center;
+}
 
 /* ------------------ Guide */
 .tip {
