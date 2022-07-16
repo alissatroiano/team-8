@@ -46,6 +46,10 @@ footer{
   height: 5%;
   text-align: center;
 }
+/* ---------------- Landing */
+cover-main{
+background: yellow3;
+}
 
 /* ------------------ Guide */
 .tip {
