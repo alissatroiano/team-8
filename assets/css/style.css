@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--gray);
 }
 
 /* ----------------- Global */
@@ -37,20 +37,21 @@ p {
   font-size: 1.2rem;
 }
 
-.cover-main {
-  background-color: #333;
+.cover-page {
+  background-color: var(--gray);
   text-align: center;
-  color: #fff;
-  height: 600px;
+  color: var(--navy);
+  height: 100vh;
+  overflow: hidden;
 }
 
 .title-bg {
   font-size: 54px;
-  padding-top: 40px;
+  margin-top: 80px;
 }
 
 .cover-p {
-  padding: 40px;
+  margin: 40px;
   font-size: 24px;
 }
 
