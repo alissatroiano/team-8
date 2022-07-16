@@ -33,5 +33,9 @@
 
 ## CREDITS
 
+### Research
+- [Rest of World](https://restofworld.org/2021/list-emoji-different-meanings/)
+
+### Code
 - [Codepen](https://codepen.io/desandro/pen/LmWoWe)
 - [Design Shack](https://designshack.net/articles/trends/best-website-color-schemes/)
