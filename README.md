@@ -1,5 +1,7 @@
 # WORLD EMOJI DAY
-# Table Of Contents
+
+## Table Of Contents
+
 * [Introduction](#Introduction)
 * [UX](#UX)
     * [User Goals](#User-Goals)
@@ -8,7 +10,7 @@
 * [Features](#Features)
     * [Navigation Bar](#Navigation-Bar)
     * [Website Theme Logo](#Website-Theme-Logo)
-    * [Gallery](#Gallery)
+    * [Guide](#Guide)
     * [Team](#Team)
 * [Technologies Used](#Technologies-Used)
     * [Languages Used](#Languages-Used)
