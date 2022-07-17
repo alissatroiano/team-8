@@ -67,6 +67,8 @@
 - The landing page provides an explaination into the project, as well as a button taking users to the guide
 ![A live screenshot of the landing page, showing the nav bar, title and button to take users to the Guide](assets/images/landing.jpg)
 
+## Features left to implement
+
 ## Technologies used 
 
 ### Languages Used 
@@ -114,3 +116,10 @@
 ### Media
 
 - [Emojis]()
+- [Landing Page image]()
+
+## Other
+
+- The code was initialized using the ![Code Institute template](https://github.com/Code-Institute-Solutions/readme-template)
+- The Wireframes used in this project were created using ![Balsamiq](https://balsamiq.com/)
+- The website mockup used in the README and testing phases was done using ![Am I responsive](https://ui.dev/amiresponsive)
