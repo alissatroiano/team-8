@@ -53,14 +53,15 @@
 ## Navigaton bar 
 - The navigation bar contains links to all the other pages within the project, it is reposnsive to sizing and resizing for different screen sizes and resolutions.
 - The Nav bar is also responsive in sjowing which page the user is currently on
-- The nav bar links have aria labels for acessibility
+- The nav bar links has aria labels for acessibility
 
 ## Guide
-- The guide utilizes java script functionality to allow the cards to flip and reveal more information 
+- The guide utilizes java script functionality to allow the cards to flip and reveal more information, this solves user expectation 3
 - The cards show the images of the emoji on the side, with alt tags allowing users to access the images even if they can't see them due to internet or disability issues 
 
 ## Team
-- The team 
+- The team page allows users to see the people behind the project, also providing links to our linkedin pages and github pages
+![A live screenshot of our team page, showing the five member team](assets/images/teampage.jpg)
 
 ## CREDITS
 
