@@ -122,6 +122,11 @@ footer {
     background-size: cover;
 }
 
+.cover-p, .text-lg{
+  background-color: rgba(0, 0, 0, 0.63);
+  color: var(--yellow-2);
+}
+
 .cta-btn {
   background-color: var(--black);
   width: 30%;
