@@ -31,59 +31,15 @@
 
 ## Introduction
 
-## UX
-
-### User Goals
-- The website should be easy to navigate and use on all web playforms.
-- 
-- 
-
-### User Expectations
-- 
-- 
-- 
-
-### Wireframes
-
-- 
-
-
 ## Features
 
-### Navigation Bar  
+## Navigaton bar 
+<p>The navigation bar contains links to all the other pages within the project, it is reposnsive to sizing and resizing for different screen sizes and resolutions. </p>
 
-### Website Theme Logo
+## Guide
 
-### Guide
-
-### Team
-
-## Technologies Used
-
-### Languages Used
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [CSS](https://en.wikipedia.org/wiki/CSS) 
-- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
-
-
-### Frameworks, Libraries & Programs Used
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
-- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-- [Bootstrap](https://getbootstrap.com/ "Bootstrap")
-
-## Testing
-
-### Validator Testing
-
-### Manual Testing
-
-## Deployment 
-
-### Github Pages
-
-### Forking the GitHub Repository
-
-### Cloning the GitHub Repository
+## Team
+<p>The Team page consists of four cards, each one holds a profile image and details of the team member, including their git hub links </p>
 
 ## CREDITS
 
