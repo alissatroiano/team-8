@@ -28,23 +28,21 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-style: semibold;
+  text-transform: capitalize;
 }
 
 .text-lg {
-  font-size: 4rem;
-  margin-top: 85px;
-  font-style: semibold;
-  letter-spacing: 1.3px;
+  font-size: 6rem;
+  margin-top: 80px;
 }
 
-/* h2 {
+h2 {
   font-family: 'reenie-beanie', serif;
   font-size: 2rem;
   font-style: italic;
+  font-weight: 600;
   text-align: center;
-} */
+}
 
 .cover-main {
   text-align: center;
@@ -84,8 +82,7 @@ footer {
   margin-top: 50px;
   max-width: 850px;
   width: 100%;
-  min-height: fit-content;
-  height: 500px;
+  height: 50vh;
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -125,7 +122,7 @@ footer {
 }
 
 .card-body--front {
-  background: var(--light);
+  background: var(--black);
   box-shadow: 0 8px 52px 0 rgba(35, 35, 35, 0.912);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -133,7 +130,7 @@ footer {
 }
 
 .card-body--back {
-  background: var(--light);
+  background: var(--dark);
   transform: rotateY(180deg);
   box-shadow: 0 8px 52px 0 rgba(35, 35, 35, 0.912);
   backdrop-filter: blur(12px);
@@ -141,13 +138,15 @@ footer {
   border-radius: 10px;
 }
 
+.fas.fa-smile {
+  /* color: rgb(43, 43, 43); */
+  color: var(--light);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
 .tip-title {
   font-size: 3rem;
   font-weight: 500;
   text-align: center;
-}
-
-.tip-icon {
-  max-width: 100%;
-  height: auto;
 }
