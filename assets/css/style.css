@@ -235,6 +235,54 @@ i {
   color: var(--yellow-2);
 }
 
+/* ------------------ Team */
+.team-title{
+  text-align: center;
+  padding-top: 25px;
+}
+.img-container-alissa{
+  background-image: url(/assets/images/alissa.jpeg);
+  height:70%;
+  background-size: cover;
+}
+.img-container-amy{
+  background-image: url(/assets/images/amy.jpg);
+  height:70%;
+  background-size: cover;
+}
+.img-container-cinthia{
+  background-image: url(/assets/images/Cinthia.jpeg);
+  height:70%;
+  background-size: cover;
+}
+.img-container-joe{
+  background-image: url(/assets/images/Joe.png);
+  height:70%;
+  background-size: cover;
+}
+.img-container-mihai{
+  background-image: url(/assets/images/mihai.JPG);
+  height:70%;
+  background-size: cover;
+}
+.social-networks{
+  margin: 15px auto 5px auto; 
+  font-size: 30px;
+}
+.team-card{
+  background-color:var(--black);
+}
+.team-heading{
+  color:var(--orange);
+  font-size: 12px;
+  text-align: center;
+}
+.team-info{
+  color:var(--orange);
+  font-size:12px;
+  text-align: center;
+}
+
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
   .text-lg {
