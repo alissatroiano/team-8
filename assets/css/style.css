@@ -223,6 +223,29 @@ i {
   color: var(--yellow-2);
 }
 
+/* ------------------ Team */
+.img-container-alissa{
+  background-image: url(/assets/images/alissa.jpeg);
+  height:70%;
+  background-size: cover;
+}
+.img-container-amy{
+  background-image: url(/assets/images/amy.jpg);
+  height:70%;
+  background-size: cover;
+}
+.img-container-joe{
+  background-image: url(/assets/images/Joe.png);
+  height:70%;
+  background-size: cover;
+}
+.img-container-mihai{
+  background-image: url(/assets/images/mihai.JPG);
+  height:70%;
+  background-size: cover;
+}
+
+
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
   .text-lg {
