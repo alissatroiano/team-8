@@ -301,7 +301,7 @@ i {
     margin: 50px;
   }
   .card.border-0.my-3.my-md-5 {
-    width: 100%;
+    width: 75vw;
     background-color: transparent;
     height: 500px;
   }
