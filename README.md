@@ -88,6 +88,11 @@
 ### HTML
 
 ### CSS
+- The guide.css file passed W3C CSS validator without any issues. 
+![Guide CSS](docs/testing/guide-css-validator.png)
+
+- The guide.css file passed W3C CSS validator without any issues. 
+![Style.css](docs/testing/style-css-validation.png)
 
 ### Accessibility 
 
