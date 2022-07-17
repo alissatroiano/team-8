@@ -44,20 +44,23 @@
 
 ## Wireframes
 ![A wireframe of the guide showing the nav bar and cards](assets/images/wireframes/wireframe-guide.jpg)
+![A wireframe of the landing page, showing the button to reach the guide](assets/images/wireframes/wireframe-index.jpg)
+![A wireframe of the team page, showing 5 pictures of the team with their linkedin and github links](assets/images/wireframes/wireframe-team.jpg)
+
 
 ## Features
 
 ## Navigaton bar 
--The navigation bar contains links to all the other pages within the project, it is reposnsive to sizing and resizing for different screen sizes and resolutions.
--The Nav bar is also responsive in sjowing which page the user is currently on
--The nav bar links have aria labels for acessibility
+- The navigation bar contains links to all the other pages within the project, it is reposnsive to sizing and resizing for different screen sizes and resolutions.
+- The Nav bar is also responsive in sjowing which page the user is currently on
+- The nav bar links have aria labels for acessibility
 
 ## Guide
--The guide utilizes java script functionality to allow the cards to flip and reveal more information 
--The cards show the images of the emoji on the side 
+- The guide utilizes java script functionality to allow the cards to flip and reveal more information 
+- The cards show the images of the emoji on the side, with alt tags allowing users to access the images even if they can't see them due to internet or disability issues 
 
 ## Team
-<p>The Team page consists of four cards, each one holds a profile image and details of the team member, including their git hub links </p>
+- The team 
 
 ## CREDITS
 
