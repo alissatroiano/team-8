@@ -201,7 +201,7 @@ a.nav-link:hover {
   -webkit-backdrop-filter: blur(12px);
   border-radius: 10px;
   color: var(--light);
-  font-size: 1.rem;
+  font-size: 1rem;
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
 }
@@ -221,13 +221,6 @@ i {
 
 .tip-cta {
   color: var(--orange);
-}
-
-.fas.fa-smile {
-  /* color: rgb(43, 43, 43); */
-  color: var(--light);
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .tip-title {
