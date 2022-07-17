@@ -238,6 +238,11 @@ i {
   height:70%;
   background-size: cover;
 }
+.img-container-cinthia{
+  background-image: url(/assets/images/Cinthia.jpeg);
+  height:70%;
+  background-size: cover;
+}
 .img-container-joe{
   background-image: url(/assets/images/Joe.png);
   height:70%;
