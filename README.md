@@ -101,6 +101,12 @@
 ## Deployment
 
 ### GitHub Pages
+- Navigate to the repository on GitHub and click 'Settings'.
+- Then select 'Pages' on the side navigation.
+- From the source section drop-down menu, select the 'Main' Branch.
+- Click on the 'Save' button.
+- This is now a live website.
+- Any changes after this point can be done through commits and pushing to GitHub. Once pushed the changes will take a few minutes before becoming live.
 
 ### Forking
 
