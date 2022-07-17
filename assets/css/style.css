@@ -37,8 +37,8 @@ h6 {
 }
 
 .text-lg {
-  font-size: 6rem;
-  margin-top: 80px;
+  font-size: 4rem;
+  margin-top: 100px;
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 1000;
@@ -47,6 +47,7 @@ h6 {
   color: var(--black);
 }
 
+/* ----------------- Navigation ----------------- */
 a.navbar-brand {
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
@@ -79,6 +80,7 @@ a.nav-link:hover {
   color: var(--orange);
 }
 
+/* ----------------- Landing Page ----------------- */
 .cover-main {
   text-align: center;
   color: var(--navy);
@@ -96,13 +98,28 @@ a.nav-link:hover {
 
 .btn-cover {
   font-size: 24px;
-  box-shadow: 2px 2px #fff;
 }
 
 footer {
   padding: 0;
   height: 5%;
   text-align: center;
+}
+
+.cta-btn {
+  background-color: var(--black);
+  width: 30%;
+  color: var(--yellow-2);
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: none;
+}
+
+.cta-btn:hover {
+  background-color: var(--orange);
+  color: var(--black);
 }
 
 /* ------------------ Guide */
@@ -192,4 +209,12 @@ i {
   font-weight: 500;
   text-align: center;
   color: var(--yellow-2);
+}
+
+/* ------------------ Media Queries ------------------ */
+@media (min-width: 768px) {
+  .text-lg {
+    margin-top: 180px;
+    font-size: 6rem;
+  }
 }
