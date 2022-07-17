@@ -32,17 +32,18 @@
 ## Introduction
 
 ## User Goals
-1- I communicate with many people online, and want to make sure that my messages aren't being misunderstood
-2- I want to learn some fun facts about emojis for world emoji day 
-3- I'm a traveller who wants to know facts about other countries before I go
+1. I communicate with many people online, and want to make sure that my messages aren't being misunderstood
+2. I want to learn some fun facts about emojis for world emoji day 
+3.s I'm a traveller who wants to know facts about other countries before I go
 
 ## User-Expectations
-1-I expect to find content easily
-2- I expect content to be laid out in an easy to access way
-3- I expect to be able to find out new information in an interesting way 
-4- I expect the website to respond to changes in screen size. 
+1. I expect to find content easily
+2.  I expect content to be laid out in an easy to access way
+3. I expect to be able to find out new information in an interesting way 
+4. I expect the website to respond to changes in screen size. 
 
 ## Wireframes
+![A wireframe of the guide showing the nav bar and cards](assets/images/wireframes/wireframe-guide.jpg)
 
 ## Features
 
