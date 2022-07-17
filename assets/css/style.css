@@ -282,6 +282,27 @@ i {
   font-size:12px;
   text-align: center;
 }
+/* ------------------ Footer */
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: var(--black);
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer ul li{
+  padding: 40px;
+  font-size: 20px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: var(--yellow-3);
+}
 
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
