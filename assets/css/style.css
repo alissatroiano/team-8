@@ -239,6 +239,11 @@ i {
   color: var(--yellow-2);
 }
 
+.tip-icon {
+  background-size: contain;
+  margin-top: 30px;
+}
+
 /* ------------------ Team */
 .team-title{
   text-align: center;
