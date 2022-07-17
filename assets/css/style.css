@@ -224,6 +224,10 @@ i {
 }
 
 /* ------------------ Team */
+.team-title{
+  text-align: center;
+  padding-top: 25px;
+}
 .img-container-alissa{
   background-image: url(/assets/images/alissa.jpeg);
   height:70%;
