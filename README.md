@@ -2,31 +2,32 @@
 
 ## Table Of Contents
 
-- [WORLD EMOJI DAY](#world-emoji-day)
-  - [Table Of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [UX](#ux)
-    - [User Goals](#user-goals)
-    - [User Expectations](#user-expectations)
-    - [Wireframes](#wireframes)
-  - [Features](#features)
-    - [Navigation Bar](#navigation-bar)
-    - [Website Theme Logo](#website-theme-logo)
-    - [Guide](#guide)
-    - [Team](#team)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-  - [Testing](#testing)
-    - [Validator Testing](#validator-testing)
-    - [Manual Testing](#manual-testing)
-  - [Deployment](#deployment)
-    - [Github Pages](#github-pages)
-    - [Forking the GitHub Repository](#forking-the-github-repository)
-    - [Cloning the GitHub Repository](#cloning-the-github-repository)
-  - [CREDITS](#credits)
-    - [Research](#research)
-    - [Code](#code)
+* [Introduction](#Introduction)
+* [UX](#UX)
+    * [User Goals](#User-Goals)
+    * [User Expectations](#User-Expectations)
+    * [Wireframes](#Wireframes)
+* [Features](#Features)
+    * [Navigation Bar](#Navigation-Bar)
+    * [Website Theme Logo](#Website-Theme-Logo)
+    * [Guide](#Guide)
+    * [Team](#Team)
+* [Technologies Used](#Technologies-Used)
+    * [Languages Used](#Languages-Used)
+    * [Frameworks, Libraries & Programs Used](#Frameworks)
+* [Testing](#Testing)
+    * [Validator Testing](#Validator)
+    * [Manual Testing](#Manual-Testing)
+* [Deployment](#Deployment)
+    * [GitHub Pages](#Github)
+    * [Forking the GitHub Repository](#Forking)
+    * [Cloning the GitHub Repository](#Cloning)
+* [Credits](#Credits)
+    * [Code](#Code)
+    * [Content](#Content)
+    * [Media](#Media)
+    * [Other](#Other)
+
 
 ## Introduction
 
@@ -69,33 +70,10 @@
 [CSS](https://en.wikipedia.org/wiki/CSS)
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-<<<<<<< HEAD
 ## Frameworks
-=======
-### Languages Used
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [CSS](https://en.wikipedia.org/wiki/CSS) 
-- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
-
-### Frameworks, Libraries & Programs Used
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
-- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-- [Bootstrap](https://getbootstrap.com/ "Bootstrap")
-
-## Testing
-
-### Validator Testing
-
-### Manual Testing
-
-## Deployment 
-
-### Github Pages
-
-### Forking the GitHub Repository
-
-### Cloning the GitHub Repository
->>>>>>> 8c35f32a0caf88c1b7d92269aea9153e835b21a8
+[Bootstrap5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+[Google Fonts](https://fonts.google.com/)
+[Font Awesome](https://fontawesome.com/)
 
 ## CREDITS
 
