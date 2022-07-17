@@ -19,6 +19,7 @@
 
 body {
   background-color: var(--yellow-3);
+  position: relative;
 }
 
 /* ----------------- Global ----------------- */
@@ -34,6 +35,10 @@ h6 {
   letter-spacing: 5px;
   text-shadow: 1px 1px 3px var(--dark);
   color: var(--black);
+}
+
+p{
+  color: #F7F7F7;
 }
 
 .text-lg {
@@ -87,7 +92,9 @@ li.nav-item:hover,
 a.nav-link:hover {
   color: var(--orange);
 }
-
+.active-tab{
+  text-decoration: underline;
+}
 /* ----------------- Landing Page ----------------- */
 .cover-main {
   text-align: center;
@@ -108,11 +115,6 @@ a.nav-link:hover {
   font-size: 24px;
 }
 
-footer {
-  padding: 0;
-  height: 5%;
-  text-align: center;
-}
 /*------------------Landing*/
 .cover-page{
     background: url(../images/bg2.jpeg) no-repeat center center fixed; 
@@ -282,7 +284,42 @@ i {
   font-size:12px;
   text-align: center;
 }
-
+/* ------------------ Footer */
+footer{
+  font-family: 'Poiret One', cursive;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 14vh;
+  background-color: var(--black);
+  text-align: center;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer ul li{
+  padding:5px 10px;
+  font-size: 20px;
+}
+hr{
+  background-color: var(--yellow-1);
+  width: 20%;
+  height: 2px;
+  margin: 0 auto;
+}
+footer ul li a{
+  text-decoration: none;
+  color: var(--yellow-3);
+}
+footer ul li a:hover{
+  color: var(--orange);
+}
+.footer-social-networks{
+  font-size:25px;
+  padding: 0 30px;
+}
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
   .text-lg {
