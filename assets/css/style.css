@@ -223,10 +223,6 @@ i {
   color: var(--yellow-2);
 }
 
-.icon-size{
-  width: 50%;
-}
-
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
   .text-lg {
