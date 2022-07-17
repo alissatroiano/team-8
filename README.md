@@ -66,16 +66,36 @@
 ## Technologies used 
 
 ## Languages Used 
-[HTML](https://en.wikipedia.org/wiki/HTML)
-[CSS](https://en.wikipedia.org/wiki/CSS)
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Frameworks
-[Bootstrap5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-[Google Fonts](https://fonts.google.com/)
-[Font Awesome](https://fontawesome.com/)
+- [Bootstrap5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+
+## TESTING
+
+## Validator Testing
+
+## HTML
+
+## CSS
+
+## Accessibility 
+
+## Manual Testing
 
 ## CREDITS
+
+## DEPLOYMENT
+
+## GitHub Pages
+
+## Forking
+
+## Cloning
 
 ### Research
 - [Rest of World](https://restofworld.org/2021/list-emoji-different-meanings/)
