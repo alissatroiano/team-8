@@ -31,6 +31,60 @@
 
 ## Introduction
 
+## UX
+
+### User Goals
+- The website should be easy to navigate and use on all web playforms.
+- 
+- 
+
+### User Expectations
+- 
+- 
+- 
+
+### Wireframes
+
+- 
+
+
+## Features
+
+### Navigation Bar  
+
+### Website Theme Logo
+
+### Guide
+
+### Team
+
+## Technologies Used
+
+### Languages Used
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS) 
+- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
+
+
+### Frameworks, Libraries & Programs Used
+- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+- [Bootstrap](https://getbootstrap.com/ "Bootstrap")
+
+## Testing
+
+### Validator Testing
+
+### Manual Testing
+
+## Deployment 
+
+### Github Pages
+
+### Forking the GitHub Repository
+
+### Cloning the GitHub Repository
+
 ## CREDITS
 
 ### Research
