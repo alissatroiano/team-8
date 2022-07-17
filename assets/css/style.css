@@ -243,27 +243,27 @@ i {
   padding-top: 25px;
 }
 .img-container-alissa{
-  background-image: url(/assets/images/alissa.jpeg);
+  background-image: url('../images/alissa.jpeg');
   height:70%;
   background-size: cover;
 }
 .img-container-amy{
-  background-image: url(/assets/images/amy.jpg);
+  background-image: url('../images/amy.jpg');
   height:70%;
   background-size: cover;
 }
 .img-container-cinthia{
-  background-image: url(/assets/images/Cinthia.jpeg);
+  background-image: url('../images/Cinthia.jpeg');
   height:70%;
   background-size: cover;
 }
 .img-container-joe{
-  background-image: url(/assets/images/Joe.png);
+  background-image: url('../images/Joe.png');
   height:70%;
   background-size: cover;
 }
 .img-container-mihai{
-  background-image: url(/assets/images/mihai.JPG);
+  background-image: url('../images/mihai.JPG');
   height:70%;
   background-size: cover;
 }
