@@ -36,6 +36,10 @@ h6 {
   color: var(--black);
 }
 
+p{
+  color: #F7F7F7;
+}
+
 .text-lg {
   font-size: 4rem;
   margin-top: 100px;
