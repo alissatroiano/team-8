@@ -278,4 +278,8 @@ i {
   .tip-title {
     font-size: 3.4rem;
   }
+  img.img-fluid.tip-img {
+    width: 100%;
+    margin: 50px;
+  }
 }
