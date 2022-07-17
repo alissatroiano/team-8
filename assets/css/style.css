@@ -244,7 +244,23 @@ i {
   height:70%;
   background-size: cover;
 }
-
+.social-networks{
+  margin: 15px auto 5px auto; 
+  font-size: 30px;
+}
+.team-card{
+  background-color:var(--black);
+}
+.team-heading{
+  color:var(--orange);
+  font-size: 14px;
+  text-align: center;
+}
+.team-info{
+  color:var(--orange);
+  font-size:15px;
+  text-align: center;
+}
 
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
