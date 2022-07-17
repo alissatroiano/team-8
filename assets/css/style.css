@@ -262,12 +262,12 @@ i {
 }
 .team-heading{
   color:var(--orange);
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
 }
 .team-info{
   color:var(--orange);
-  font-size:15px;
+  font-size:12px;
   text-align: center;
 }
 
