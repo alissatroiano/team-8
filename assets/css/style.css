@@ -37,8 +37,10 @@ h6 {
   color: var(--black);
 }
 
-p{
+p {
   color: #F7F7F7;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 .text-lg {
