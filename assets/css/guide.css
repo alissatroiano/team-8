@@ -1,121 +1,205 @@
-.menu-item, .menu-open-button {
-  background: #000;
-  border-radius: 100%;
+:root {
+  --white: #F7F7F7;
+  --light: #E0E0E0;
+  --gray: #dcdcdce3;
+  --shadow: rgb(85, 85, 85);
+  --blue: #7DA2A9;
+  --dark: #1D2228;
+  --black: #0a0a0a;
+  --navy: #051622;
+  --yellow-1: #FDD935;
+  --yellow-2: #E9BD43;
+  --yellow-3: #F5B935;
+  --orange: #FB8122;
+}
+
+@-webkit-keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.floating-container {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  margin: 35px 25px;
+}
+
+.floating-container:hover {
+  height: 750px;
+}
+.floating-container:hover .floating-button {
+  -webkit-transform: translatey(5px);
+          transform: translatey(15px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.floating-container:hover .element-container .float-element:nth-child(1) {
+  -webkit-animation: come-in 0.4s forwards 0.2s;
+          animation: come-in 0.4s forwards 0.2s;
+}
+.floating-container:hover .element-container .float-element:nth-child(2) {
+  -webkit-animation: come-in 0.4s forwards 0.4s;
+          animation: come-in 0.4s forwards 0.4s;
+}
+.floating-container:hover .element-container .float-element:nth-child(3) {
+  -webkit-animation: come-in 0.4s forwards 0.6s;
+          animation: come-in 0.4s forwards 0.6s;
+}
+.floating-container:hover .element-container .float-element:nth-child(4) {
+  -webkit-animation: come-in 0.4s forwards 0.8s;
+          animation: come-in 0.4s forwards 0.8s;
+}
+.floating-container:hover .element-container .float-element:nth-child(5) {
+  -webkit-animation: come-in 0.4s forwards 1s;
+          animation: come-in 0.4s forwards 1s;
+}
+.floating-container:hover .element-container .float-element:nth-child(6) {
+  -webkit-animation: come-in 0.4s forwards 1.2s;
+          animation: come-in 0.4s forwards 1.2s;
+}
+.floating-container:hover .element-container .float-element:nth-child(7) {
+  -webkit-animation: come-in 0.4s forwards 1.4s;
+          animation: come-in 0.4s forwards 1.4s;
+}
+.floating-container:hover .element-container .float-element:nth-child(8) {
+  -webkit-animation: come-in 0.4s forwards 1.6s;
+          animation: come-in 0.4s forwards 1.6s;
+}
+.floating-container:hover .element-container .float-element:nth-child(9) {
+  -webkit-animation: come-in 0.4s forwards 1.8s;
+          animation: come-in 0.4s forwards 1.8s;
+}
+.floating-container:hover .element-container .float-element:nth-child(10) {
+  -webkit-animation: come-in 0.4s forwards 2s;
+          animation: come-in 0.4s forwards 2s;
+}
+
+.floating-container .floating-button {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: var(--light);
+  bottom: 0;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: var(--dark);
+  line-height: 65px;
+  text-align: center;
+  font-size: 23px;
+  z-index: 100;
+  box-shadow: 0 10px 25px 10px var(--dark);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.floating-container .float-element {
+  position: relative;
+  display: block;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-left: -10px;
-  position: absolute;
-  top: 20px;
+  margin: 15px auto;
   color: white;
+  font-weight: 500;
   text-align: center;
-  line-height: 80px;
-  transform: translate3d(0, 0, 0);
-  transition: transform ease-out 200ms;
+  line-height: 50px;
+  z-index: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+  vertical-align: middle;
+  font-size: 12px;
+}
+.floating-container .float-element:nth-child(1) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(2) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(3) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(4) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(5) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(6) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(7) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(8) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(9) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
+}
+.floating-container .float-element:nth-child(10) {
+  background: var(--light);
+  box-shadow: 0 10px 25px 10px var(--dark);
 }
 
-.menu-open {
-  display: none;
-}
-
-.hamburger {
-  width: 25px;
-  height: 3px;
-  background: white;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -12.5px;
-  margin-top: -1.5px;
-  transition: transform 200ms;
-}
-
-.hamburger-1 {
-  transform: translate3d(0, -8px, 0);
-}
-
-.hamburger-2 {
-  transform: translate3d(0, 0, 0);
-}
-
-.hamburger-3 {
-  transform: translate3d(0, 8px, 0);
-}
-
-.menu-open:checked + .menu-open-button .hamburger-1 {
-  transform: translate3d(0, 0, 0) rotate(45deg);
-}
-.menu-open:checked + .menu-open-button .hamburger-2 {
-  transform: translate3d(0, 0, 0) scale(0.1, 1);
-}
-.menu-open:checked + .menu-open-button .hamburger-3 {
-  transform: translate3d(0, 0, 0) rotate(-45deg);
-}
-
-.menu {
-  position: fixed;
-  bottom: 0;
-  left: 10%;
-  padding-left: 0px;
-  width: 650px;
-  height: 150px;
-  box-sizing: border-box;
-  font-size: 20px;
-  text-align: left;
-}
-
-.menu-item:hover {
-  background: white;
-  color: #00bcd4;
-}
-
-.menu-item:nth-child(3) {
-  transition-duration: 180ms;
-}
-.menu-item:nth-child(4) {
-  transition-duration: 180ms;
-}
-.menu-item:nth-child(5) {
-  transition-duration: 180ms;
-}
-.menu-item:nth-child(6) {
-  transition-duration: 180ms;
-}
-
-.menu-open-button {
-  z-index: 2;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: 400ms;
-  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
-  cursor: pointer;
-}
-
-.menu-open-button:hover {
-  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
-}
-
-.menu-open:checked + .menu-open-button {
-  transition-timing-function: linear;
-  transition-duration: 200ms;
-  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
-}
-
-.menu-open:checked ~ .menu-item {
-  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.menu-open:checked ~ .menu-item:nth-child(3) {
-  transition-duration: 190ms;
-  transform: translate3d(110px, 0, 0);
-}
-.menu-open:checked ~ .menu-item:nth-child(4) {
-  transition-duration: 290ms;
-  transform: translate3d(220px, 0, 0);
-}
-.menu-open:checked ~ .menu-item:nth-child(5) {
-  transition-duration: 390ms;
-  transform: translate3d(330px, 0, 0);
-}
-.menu-open:checked ~ .menu-item:nth-child(6) {
-  transition-duration: 490ms;
-  transform: translate3d(440px, 0, 0);
+i#compass {
+  color: var(--yellow-3);
 }
