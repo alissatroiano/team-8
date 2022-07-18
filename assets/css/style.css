@@ -146,7 +146,6 @@ a.nav-link:hover {
 
 /* ------------------ Guide */
 .tip {
-  height: 100vh;
   margin: 0 auto;
   perspective: 600px;
 }
@@ -160,6 +159,11 @@ a.nav-link:hover {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
+}
+
+.card.border-0.my-3.my-md-5 {
+  background-color: transparent;
+  max-height: 650px;
 }
 
 .card-body {
@@ -329,5 +333,11 @@ footer ul li a:hover{
   img.img-fluid.tip-img {
     width: 100%;
     margin: 50px;
+  }
+  .card.border-0.my-3.my-md-5 {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    height: 500px;
   }
 }
