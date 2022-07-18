@@ -67,6 +67,7 @@
   right: 0;
   margin: 35px 25px;
 }
+
 .floating-container:hover {
   height: 750px;
 }
@@ -122,13 +123,13 @@
   position: absolute;
   width: 65px;
   height: 65px;
-  background: var(--orange);
+  background: var(--light);
   bottom: 0;
   border-radius: 50%;
   left: 0;
   right: 0;
   margin: auto;
-  color: white;
+  color: var(--dark);
   line-height: 65px;
   text-align: center;
   font-size: 23px;
@@ -199,4 +200,6 @@
   box-shadow: 0 10px 25px 10px var(--dark);
 }
 
-.fa {}
+i#compass {
+  color: var(--yellow-3);
+}
