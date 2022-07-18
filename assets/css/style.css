@@ -320,27 +320,3 @@ footer ul li a:hover{
   font-size:25px;
   padding: 0 30px;
 }
-
-/* ------------------ Media Queries ------------------ */
-@media (min-width: 768px) {
-  .text-lg {
-    margin-top: 180px;
-    font-size: 6rem;
-  }
-  .tip-text {
-    font-size: 1.5rem;
-  }
-  .tip-title {
-    font-size: 3.4rem;
-  }
-  img.img-fluid.tip-img {
-    width: 100%;
-    margin: 50px;
-  }
-  .card.border-0.my-3.my-md-5 {
-    width: 100%;
-    max-width: 100%;
-    background-color: transparent;
-    height: 500px;
-  }
-}
