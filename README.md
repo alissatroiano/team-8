@@ -100,11 +100,23 @@
 
 ## Deployment
 
-### GitHub Pages
+Webapp deployed to GitHub Pages. The steps to deploy are as follows:
+
+- On the project page, click on **Settings**
+- Choose **Pages** on left menu
+- In the **source section**, choose the branch that you would like to deploy (e.g. main)
+- Click on the **save** button, and after a few seconds, you will have access to the URL of the deployed site.
+- The live website can be found here &#128073; [Emojourney](https://alissatroiano.github.io/team-8/).
 
 ### Forking
 
+To be able to access all the files in their on repositoris the team participants forked [Alissa's](https://github.com/alissatroiano/team-8) repositorie from GitHub by clicking on the **Fork** button on the top right of the page and them on **Create fork** after the page refreshes.
+
 ### Cloning
+
+For those teammembers that choose code using a code editor the cloning proccess was as a follow:
+- On the repository forked click on **Code** and copy the url.
+- Open the terminal on the working folder and type the command <code>git code https://github.com/username/team-8</code> and hit the key "Enter".
 
 ## Credits
 
