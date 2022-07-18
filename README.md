@@ -1,5 +1,7 @@
 # WORLD EMOJI DAY
 
+![](assets/images/readme/am-i-responsive.png)
+
 ## Table Of Contents
 
 * [Introduction](#Introduction)
@@ -82,6 +84,7 @@
 - [Font Awesome](https://fontawesome.com/)
 
 ## Testing
+ 
 
 ## Validator Testing
 
@@ -97,6 +100,8 @@
 ### Accessibility 
 
 ## Manual Testing
+
+
 
 ## Deployment
 
