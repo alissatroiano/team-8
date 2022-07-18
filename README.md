@@ -1,6 +1,6 @@
 # WORLD EMOJI DAY
 
-![](assets/images/readme/am-i-responsive.png)
+![A screenshot of the responsives of the page ](assets/images/readme/am-i-responsive.png)
 
 ## Table Of Contents
 
