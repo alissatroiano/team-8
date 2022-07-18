@@ -220,7 +220,8 @@ a.nav-link:hover {
 }
 
 i {
-  color: var(--yellow-2);
+  color: var(--yellow-3);
+  text-shadow: 1px 1px 3px var(--dark);
 }
 
 .tip-cta {
