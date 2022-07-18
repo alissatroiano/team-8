@@ -313,6 +313,7 @@ footer ul li a:hover{
   font-size:25px;
   padding: 0 30px;
 }
+
 /* ------------------ Media Queries ------------------ */
 @media (min-width: 768px) {
   .text-lg {
