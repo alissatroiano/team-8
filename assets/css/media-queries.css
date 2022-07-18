@@ -2,7 +2,7 @@
 @media only screen and (min-width: 767px) {
   .text-lg {
     margin-top: 180px;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .tip-text {
     font-size: 1.5rem;
@@ -40,6 +40,22 @@
 
   footer {
     height: 18vh;
+  }
+
+  /* Cards */
+  .tip-title {
+    font-size: 26px;
+  }
+
+  .tip-text {
+    font-size: 16px;
+  }
+  .fa-earth-asia {
+    font-size: 4.5rem;
+  }
+
+  .card-body--back {
+    padding: 5px;
   }
 }
 
