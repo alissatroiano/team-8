@@ -163,7 +163,7 @@ a.nav-link:hover {
 
 .card.border-0.my-3.my-md-5 {
   background-color: transparent;
-  height: 450px;
+  max-height: 650px;
 }
 
 .card-body {
@@ -335,7 +335,7 @@ footer ul li a:hover{
     margin: 50px;
   }
   .card.border-0.my-3.my-md-5 {
-    width: 75vw;
+    width: 100%;
     max-width: 100%;
     background-color: transparent;
     height: 500px;
