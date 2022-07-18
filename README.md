@@ -142,6 +142,6 @@ For those team members that choose code using a code editor, the cloning process
 
 ## Other
 
-- The code was initialized using the ![Code Institute template](https://github.com/Code-Institute-Solutions/readme-template)
-- The Wireframes used in this project were created using ![Balsamiq](https://balsamiq.com/)
-- The website mockup used in the README and testing phases was done using ![Am I responsive](https://ui.dev/amiresponsive)
+- The code was initialized using the [Code Institute template](https://github.com/Code-Institute-Solutions/readme-template)
+- The Wireframes used in this project were created using [Balsamiq](https://balsamiq.com/)
+- The website mockup used in the README and testing phases was done using [Am I responsive](https://ui.dev/amiresponsive)

@@ -1,0 +1,45 @@
+/* ------------------ Media Queries ------------------ */
+@media only screen and (min-width: 767px) {
+  .text-lg {
+    margin-top: 180px;
+    font-size: 4rem;
+  }
+  .tip-text {
+    font-size: 1.5rem;
+  }
+  .tip-title {
+    font-size: 3.4rem;
+  }
+  img.img-fluid.tip-img {
+    width: 100%;
+    margin: 50px;
+  }
+  .card.border-0.my-3.my-md-5 {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .text-lg {
+    margin-top: 60px;
+    font-size: 2.5rem;
+  }
+
+  .cover-p {
+    margin: 0;
+    padding: 30px;
+    font-size: 18px;
+  }
+
+  .btn-cover {
+    font-size: 18px;
+  }
+
+  footer {
+    height: 18vh;
+  }
+}
+
